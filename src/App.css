@@ -1,0 +1,87 @@
+.homeContainer{
+  background-color: rgba(48, 47, 47, 0.986);
+  /* background-color: rgb(194, 194, 194); */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+  width: 100%;
+  max-width: 100vw;
+  min-height: 500px;
+  overflow-x: hidden;
+  align-items: center;
+  justify-content: flex-start;
+  /* border-radius: 0 0 20px 20px; */
+}
+/* .imageContainer{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+} */
+.introductionContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+
+}
+
+.skillsImageContainer{
+  display: flex;
+  height: 100vh;
+}
+
+.skillTextContainer{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.skillText{
+  background-color: rgba(0, 0, 0, 0.637);
+  border-radius: 20px;
+  padding: 1rem 5rem;
+  margin-top: 20px;
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  letter-spacing: 5px;
+  font-weight: 200;
+}
+.skillText2{
+  letter-spacing: 5px;
+  font-weight: 200;
+  margin-left: 10px;
+}
+.tooltip{
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 50px;
+  bottom: 90px;
+  width: 80%;
+  font-size: 0.7rem;
+  /* text-overflow: ellipsis; */
+  background-color: rgba(0, 0, 0, 0.747);
+}
+.whileHover:hover .tooltip{
+  visibility: visible;
+}
+
+.imageSize{
+  height:'300px';
+  border-radius:'10px';
+}
+
+@media (max-width:'500px'){
+  .imageSize{
+    height: 100px;
+  }
+}
