@@ -162,7 +162,7 @@ function Home() {
         duration:1,
         delay:0.25
       }}
-      style={{ color: "rgb(194, 194, 194)",fontWeight:'bold',textAlign:'center', fontSize: "1.8rem",fontStyle:'oblique' }}>
+      style={{ color: "rgb(194, 194, 194)",fontWeight:'bold',textAlign:'center', fontSize: "1.8rem",margin:'20px 10px',fontStyle:'oblique' }}>
         Hello, my name is Nitesh Rawat.
       </motion.p>
       <motion.p 
@@ -177,7 +177,7 @@ function Home() {
         delay:0.50,
         type:'spring'
       }}
-      style={{ color: "gray",textAlign:'center',margin:'0px 20vw',fontSize:'1.3rem',fontStyle:'oblique' }}>
+      style={{ color: "gray",textAlign:'center',margin:'0px 15vw',fontSize:'1.3rem',fontStyle:'oblique' }}>
         I am an <b>Web and Mobile</b> Application Developer. I'm a Computer Application graduate with a degree from Manav Rachna International University. Over the past 2 years, coding has developed into a passion of mine, specifically in Web and Mobile Development. 
       </motion.p>
       </div>
